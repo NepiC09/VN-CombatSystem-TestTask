@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Entity" load_steps=2 format=3 uid="uid://d3k67o1byio3"]
+
+[ext_resource type="Script" path="res://Scripts/Entity.gd" id="1_d183r"]
+
+[resource]
+script = ExtResource("1_d183r")
+_Name = ""
+_HP = 25
+_MinInitative = 4
+_MaxInitative = 8
+_Initiative = 0
+_MinDamage = 1
+_MaxDamage = 10
