@@ -1,12 +1,12 @@
 # VN CombatSystem TestTask
-##ENGLISH DESCRIPTION
-###Features:
+## ENGLISH DESCRIPTION
+### Features:
 -You can add new effects. It could be a heal, a different type of damage, or anything else you want.
 -Effects can be merged into Skill class in the future and define how effects are applied in it.
 -Any number of opponents and players (Character) and entities (Entity) can be supported.
 -At the moment, one effect (Damage) is invoked for all. A choice of effect or Skill can be added in the future.
 
-###Not realized yet
+### Not realized yet
 -No choice of target among your own creatures (e.g. to heal your own characters).
 
 
@@ -29,17 +29,17 @@ The system is rigidly independent of display and selection (But for the moment s
 The setup and interface is implemented in CombatScene. Linking signals, character creation and more.
 
 
-##RUSSIAN DESCRIPTION
-###Фичи:
+## RUSSIAN DESCRIPTION
+### Фичи:
 -Можно добавлять новые эффекты. Это может быть хил, другой тип урона или что угодно другое
 -Эффекты в будущем можно объединить в класс Skill и в нём определять как эффекты применяются
 -Поддерживается любое количество противников и игроков (Character) и сущностей (Entity)
 -На данный момент вызывается у всех один эффект (Damage). В Будущем можно добавить выбор эффекта или Skill
 
-###Ещё не реализовано:
+### Ещё не реализовано:
 -Нет выбора цели среди собственных существ (Например хилить своих персов)
 
-###Особенности:
+### Особенности:
 Эффекты сами обрабатывают своё действие и хранятся у цели (Entity) в массиве эффектов:
 -----------OnAdd позволяет сделать действие при наложении
 -----------OnUpdate позволяет сделать действие при обновлении эффекта (раунд, тик или что угодно)
