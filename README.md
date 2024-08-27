@@ -1,6 +1,6 @@
 # VN CombatSystem TestTask
 ENGLISH DESCRIPTION
-==Features:==
+Features:
 -You can add new effects. It could be a heal, a different type of damage, or anything else you want.
 -Effects can be merged into Skill class in the future and define how effects are applied in it.
 -Any number of opponents and players (Character) and entities (Entity) can be supported.
